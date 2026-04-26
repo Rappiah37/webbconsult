@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | Erns Consultant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <img src="logo.svg" alt="Erns Consultant Logo" class="logo" />
+      <span>
+        <span class="brand-title">Erns Consultant</span>
+        <span class="brand-subtitle">Healthcare Training</span>
+      </span>
+    </a>
+    <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="courses.html">Courses</a>
+      <a href="tuition.html">Tuition</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="page-hero"><div class="container"><h1>Student Registration</h1><p>Complete the form below to begin your registration.</p></div></section>
+  <section class="section">
+    <div class="container">
+      <div class="form-card">
+        <h2>Registration Form</h2>
+        <p>Please complete all required fields. After submitting, you will be redirected to a thank-you page.</p>
+        <form action="https://formsubmit.co/arichardkwaku@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Student Registration - Erns Consultant">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="true">
+          <input type="hidden" name="_next" value="https://rappiah37.github.io/web2026/thankyou.html">
+          <input type="hidden" name="_autoresponse" value="Thank you for registering with Erns Consultant. We have received your registration. Our team will contact you soon.">
+          <input type="text" name="_honey" style="display:none">
+
+          <label>Full Name</label><input type="text" name="Full Name" required>
+          <label>Email Address</label><input type="email" name="email" required>
+          <label>Phone Number</label><input type="tel" name="Phone Number" required>
+          <label>Address</label><input type="text" name="Address" required>
+          <div class="form-row"><div><label>City</label><input type="text" name="City" required></div><div><label>State</label><input type="text" name="State" required></div></div>
+          <label>ZIP Code</label><input type="text" name="ZIP Code" required>
+          <label>Preferred Class Schedule</label><select name="Preferred Class Schedule" required><option value="">Select One</option><option>Weekday Class</option><option>Weekend Class</option><option>Evening Class</option></select>
+          <label>Do you have healthcare experience?</label><select name="Healthcare Experience" required><option value="">Select One</option><option>Yes</option><option>No</option></select>
+          <label>Message / Questions</label><textarea name="Message" rows="5"></textarea>
+          <button type="submit" class="submit-btn">Submit Registration</button>
+        </form>
+
+        <div id="payment" class="payment-box">
+          <h2>Registration Fee Payment</h2>
+          <p>After submitting your registration form, please pay using one of these options:</p>
+          <div class="payment-options">
+            <a class="pay-btn paypal" href="https://www.paypal.com/paypalme/YOURPAYPALUSERNAME" target="_blank" rel="noopener">Pay with PayPal</a>
+            <p><strong>Zelle:</strong> arichardkwaku@gmail.com</p>
+            <p><strong>Cash App:</strong> $YourCashAppTag</p>
+            <img src="cashapp-qr.svg" alt="Cash App QR Code" class="qr-code">
+          </div>
+          <p class="payment-note"><strong>Payment Status:</strong> Pending manual confirmation.</p>
+          <p class="payment-note">Please include your full name in the payment note. Your registration is confirmed after payment is received.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container footer-bottom">
+    <p>&copy; 2026 Erns Consultant. All Rights Reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
